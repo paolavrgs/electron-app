@@ -8,10 +8,11 @@ function createWindow () {
   // Crea la ventana del navegador.
   win = new BrowserWindow(
     {
-      width: 800,
-      height: 600,
+      width: 1281,
+      height: 800,
+      icon: __dirname  + 'icons/48x48.png',
       webPreferences: {
-        devTools: true
+        devTools: false
       }
     })
 

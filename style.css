@@ -7,6 +7,22 @@
 /* @import url(css/animate.css); */
 /* @import url(css/magnific-popup.css); */
 /* @import url(css/classy-nav.min.css); */
+
+@font-face {
+  font-family: "Raleway", sans-serif;
+  src: url('./img/Raleway-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Raleway-Medium', sans-serif;
+  src: url('./img/Raleway-Medium.ttf');
+}
+
+@font-face {
+  font-family: 'Raleway-Bold', sans-serif;
+  src: url('./img/Raleway-Bold.ttf');
+}
+
 /* :: 3.0 Base CSS */
 * {
   margin: 0;
@@ -14,7 +30,7 @@
 }
 
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 14px;
   font-weight: 400;
 }
@@ -31,6 +47,14 @@ h6 {
 }
 
 p {
+  font-family: "Raleway", sans-serif;
+  color: #5a5a5a;
+  font-size: 14px;
+  line-height: 1.8;
+  font-weight: 400;
+}
+
+.date, .time {
   font-family: "Raleway", sans-serif;
   color: #5a5a5a;
   font-size: 14px;
@@ -157,6 +181,10 @@ img {
 
 
 /* Section Padding */
+.section-padding-70-0{
+  padding-top: 70px;
+  padding-bottom: 0;
+}
 
 .section-padding-100 {
   padding-top: 100px;
@@ -843,7 +871,8 @@ textarea:focus {
 
 .single-popular-course img {
   display: block;
-  width: 100%;
+  width: 80px;
+  margin-top: 20px;
   border-radius: 6px 6px 0 0;
 }
 

@@ -9,24 +9,25 @@
     <title>Arquitectura del Software</title>
      <!-- Stylesheet -->
      <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="./css/font-awesome.min.css">
   </head>
   <body>
-    <section class="popular-courses-area section-padding-100-0" style="background-image: url(img/core-img/texture.png);">
+    <section class="popular-courses-area section-padding-70-0">
       <div class="container">
         <div class="row">
           <div class="col-12">
             <div class="section-heading">
-              <h3>Contenidos disponibles</h3>
+              <h3>Enciclopedia</h3>
+              <span>Ingeniería de Sistemas</span>
             </div>
           </div>
         </div>
         <div class="row">
           <div class="col-12 col-md-6 col-lg-4">
-            <div class="single-popular-course mb-100 wow fadeInUp" data-wow-delay="250ms">
-              <img src="https://colorlib.com/preview/theme/clever/img/bg-img/bg1.jpg" alt="">
+            <div class="single-popular-course mb-100 d-flex flex-column align-items-center" data-wow-delay="250ms">
+              <img src="img/gerencia.svg" alt="">
               <div class="course-content">
-                <h4>Gerencia de la informática</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce enim nulla, mollis eu metus in, sagittis</p>
+                <h4>Gerencia de la informática</h4>                
               </div>
               <div class="seat-rating-fee d-flex justify-content-end">
                 <div class="course-fee h-100">
@@ -36,11 +37,10 @@
             </div>
           </div>
           <div class="col-12 col-md-6 col-lg-4">
-            <div class="single-popular-course mb-100 wow fadeInUp" data-wow-delay="250ms">
-              <img src="https://colorlib.com/preview/theme/clever/img/bg-img/bg1.jpg" alt="">
+            <div class="single-popular-course mb-100 d-flex flex-column align-items-center" data-wow-delay="250ms">
+              <img src="img/code.svg" alt="">
               <div class="course-content">
-                <h4>Programación</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce enim nulla, mollis eu metus in, sagittis</p>
+                <h4>Programación</h4>                
               </div>
               <div class="seat-rating-fee d-flex justify-content-end">
                 <div class="course-fee h-100">
@@ -50,11 +50,10 @@
             </div>
           </div>
           <div class="col-12 col-md-6 col-lg-4">
-            <div class="single-popular-course mb-100 wow fadeInUp" data-wow-delay="250ms">
-              <img src="https://colorlib.com/preview/theme/clever/img/bg-img/bg1.jpg" alt="">
+            <div class="single-popular-course mb-100 d-flex flex-column align-items-center" data-wow-delay="250ms">
+              <img src="img/logica.svg" alt="">
               <div class="course-content">
-                <h4>Lógica</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce enim nulla, mollis eu metus in, sagittis</p>
+                <h4>Lógica Matemática</h4>                
               </div>
               <div class="seat-rating-fee d-flex justify-content-end">
                 <div class="course-fee h-100">
@@ -64,11 +63,10 @@
             </div>
           </div>
           <div class="col-12 col-md-6 col-lg-4">
-            <div class="single-popular-course mb-100 wow fadeInUp" data-wow-delay="250ms">
-              <img src="https://colorlib.com/preview/theme/clever/img/bg-img/bg1.jpg" alt="">
+            <div class="single-popular-course mb-100 d-flex flex-column align-items-center" data-wow-delay="250ms">
+              <img src="img/db.svg" alt="">
               <div class="course-content">
-                <h4>Base de Datos</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce enim nulla, mollis eu metus in, sagittis</p>
+                <h4>Base de Datos</h4>                
               </div>
               <div class="seat-rating-fee d-flex justify-content-end">
                 <div class="course-fee h-100">
@@ -90,8 +88,23 @@
     <script src="js/bootstrap.min.js"></script>
     <!-- All Plugins js -->
     <script src="js/plugins/plugins.js"></script>
-    <script src="https://use.fontawesome.com/70a3cb5d53.js"></script>
     <!-- Active js -->
     <script src="js/active.js"></script>
+    <script>
+      var d = new Date();
+
+      var month = d.getMonth()+1;
+      var day = d.getDate();
+      var hour = d.getHours();
+      var min = d.getMinutes();
+
+      var date = (day<10 ? '0' : '') + day + '/' +
+          (month<10 ? '0' : '') + month + '/' +
+          d.getFullYear();
+      var time = (hour + ':' + min);
+
+      $('.date').append(date)
+      $('.time').append(time)
+    </script>
   </body>
 </html>

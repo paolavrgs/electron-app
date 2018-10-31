@@ -7,10 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Stylesheet -->
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
   </head>
   <body>
     <div class="back">
-      <i class="fa fa-arrow-left"></i>
+      <span>⬅</span>
       <a href="index.html">Volver a Inicio</a>
     </div>
     <div class="header-custom d-flex align-items-center justify-content-center">
@@ -35,11 +36,6 @@
                   <li class="nav-item">
                     <a class="nav-link" id="tab--2" data-toggle="tab" href="#tab2" role="tab" aria-controls="tab2" aria-selected="true">UNIDAD II</a>
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link" id="tab--3" data-toggle="tab" href="#tab3" role="tab" aria-controls="tab3" aria-selected="true">UNIDAD III</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" id="tab--4" data-toggle="tab" href="#tab4" role="tab" aria-controls="tab4" aria-selected="true">UNIDAD IV</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" id="tab--5" data-toggle="tab" href="#tab5" role="tab" aria-controls="tab5" aria-selected="true">Contenido Prográmatico</a>
@@ -52,150 +48,198 @@
                       <div class="curriculum-level mb-30 single-accordion">
                         <h6>
                           <a role="button" class="collapsed" aria-expanded="false" aria-controls="1-1" data-toggle="collapse" data-parent="#accordion" href="#1-1">
-                            Conceptos Básicos
+                            Historia del Computador
                             <span class="accor-open"><i class="fa fa-plus" aria-hidden="true"></i></span>
                             <span class="accor-close"><i class="fa fa-minus" aria-hidden="true"></i></span>
                           </a>
                         </h6>
                         <div id="1-1" class="accordion-content collapse show">
                           <p>
-                            <strong>1.1.1 Datos:</strong>
-                            Un dato es la representación de una variable que puede ser cuantitativa o cualitativa, indican un valor que se le asigna a las cosas. Los datos
-                            son información. Los datos describen en su conjunto nos hablan de hechos empíricos. Un dato por sí solo no puede demostrar demasiado,
-                            siempre se evalúa el conjunto para poder examinar los resultados. Para examinarlos, primero hay que organizarlos o tabularlos. Los datos
-                            pueden ser generados de forma automática y acumulativa con diferentes tipos de programas informáticos o bien tienen que ser siempre
-                            ingresados para formar una base de datos.
-                            Los datos que se ingresan en una base pueden ser de diversos tipos, según la información que se acumule en dicha base. Por ejemplo puede
-                            ser una base de datos de información personal, entonces los datos serán numéricos, alfabéticos y alfa-numéricos.
-                            En informática, en programación, un dato es la expresión general que va a describir aquellas características de la entidad sobre la que opera. En
-                            la estructura de datos, un dato es la más mínima parte de la información.
-                          </p>
-                          <p>
-                            <strong>1.1.2 Información:</strong>
-                            La información está constituida por un grupo de datos ya supervisados y ordenados, que sirven para construir un mensaje basado en un cierto
-                            fenómeno o ente. La información permite resolver problemas y tomar decisiones, ya que su aprovechamiento racional es la base
-                            del conocimiento.
-                            <br>
-                            Por lo tanto, otra perspectiva nos indica que la información es un recurso que otorga significado o sentido a la realidad, ya que mediante códigos
-                            y conjuntos de datos, da origen a los modelos de pensamiento humano.
-                            Existen diversas especies que se comunican a través de la transmisión de información para su supervivencia; la diferencia para los seres
-                            humanos radica en la capacidad que tiene el hombre para armar códigos y símbolos con significados complejos, que conforman el lenguaje
-                            común para la convivencia en sociedad.
-                            <br>
-                            <br>
-                            Los datos son percibidos a través de los sentidos y, una vez que se integran, terminan por generar la información que se necesita para producir
-                            el conocimiento. Se considera que la sabiduría es la habilidad para juzgar de modo adecuado cuándo, cómo, dónde y con qué objetivo se
-                            emplea el conocimiento adquirido.
-                            Los especialistas afirman que existe un vínculo indisoluble entre la información, los datos, el conocimiento, el pensamiento y el lenguaje.
-                          </p>
-                          <p>
-                            <strong>1.1.3 Conocimiento:</strong>
-                            El conocimiento es un conjunto de información almacenada mediante la experiencia o el aprendizaje (a posteriori), o a través de
-                            la introspección (a priori). En el sentido más amplio del término, se trata de la posesión de múltiples datos interrelacionados que, al ser tomados
-                            por sí solos, poseen un menor valor cualitativo.
-                            El conocimiento tiene su origen en la percepción sensorial, después llega al entendimiento y concluye finalmente en la razón. Se dice que el
-                            conocimiento es una relación entre un sujeto y un objeto. El proceso del conocimiento involucra cuatro
-                            elementos: sujeto, objeto, operación y representación interna (el proceso cognoscitivo).
+                              El concepto numérico se considera, generalmente, como anterior al desarrollo de los lenguajes escritos; los primeros registros del hombre son anotaciones
+                              sobre la cantidad de granos, animales y demás posesiones personales. Con este fin, el hombre empleaba guijarros, palos y/o marcas en las paredes de las
+                              cavernas que habitaba. El deseo humano de obtener mayor información y mejores comunicaciones, gradualmente fue dejando atrás estos sencillos
+                              instrumentos. El ábaco es considerado como el primer instrumento elaborado por el hombre para realizar operaciones aritméticas de manera más eficiente.
+                              El ábaco no realiza cálculos de manera autónoma (por si solo), simplemente le permite al hombre realizarlos de manera más eficiente. La primera máquina
+                              que realizaba cálculos de manera autónoma fue inventada en 1642 por el gran matemático y filósofo francés Blas Pascal. La máquina de Pascal (en honor a
+                              su inventor), era movida mediante una serie de ruedas dentadas, numeradas del cero al nueve, alrededor de sus circunferencias y era capaz de sumar y restar
+                              en forma directa, mostrando un número a través de una ventanita y por este hecho tiene la ventaja de evitar tener que contar, como en el caso del ábaco;
+                              además, presenta los resultados en forma más accesible.
+                              <br>
+                              En 1671 Gottfried Wilhelm Leibniz le adicionó a la máquina de Pascal un cilindro diseñado especialmente para que fuera capaz de multiplicar y dividir de
+                              manera directa. A principios del siglo XIX el ingeniero Joseph Marie Jacquard perfeccionó el concepto de tarjeta perforada, con el cual se podían
+                              “programar” las máquinas de tejer para que siguieran un patrón o diseño. Este concepto fue posteriormente utilizado en las máquinas de cómputo para
+                              decirles qué debían calcular. 2 Pero ninguno de estos avances fue antecesor directo de las computadoras electrónicas de hoy. La verdadera precursora de la
+                              computadora fue la máquina llamada “motor de diferencias”, construida en 1822 por Charles Babbage para calcular algoritmos y tablas astronómicas. A
+                              partir de su trabajo en el motor de diferencias, Babbage diseñó un poderoso instrumento para el cálculo automático. Tal como lo concibió Babbage, este
+                              “motor analítico” estaría impulsado por vapor, y trabajaría basado en un programa de planeación almacenado en tarjetas perforadas. Ésta máquina estaba
+                              dividida funcionalmente en dos grandes partes: una que ordenaba y otra que ejecutaba las órdenes. La que ejecutaba las órdenes era una versión muy
+                              ampliada de la máquina de Pascal, mientras que la otra era la parte clave. La innovación consistía, en que el usuario podía combinando las especificaciones
+                              de control, lograr que la misma máquina ejecutara operaciones complejas, diferentes a las hechas antes. Babbage concibió una memoria, un procesador
+                              aritmético, los medios de ingresar datos y/o instrucciones, así como una sección de producción que imprimiría los resultados. Todos estos son los elementos
+                              de las computadoras modernas y no se hicieron realidad sino varias generaciones después de ser propuestos por Babagge. Charles Babbage no pudo
+                              implementar el motor analítico y murió sin saber que realmente funcionaba.
+                              <br>
+                              <br>
+                              Durante los cien años siguientes, las máquinas activadas por tarjetas perforadas se modificaron, se mejoraron e hicieron más rápidas, pero aún no podían
+                              mantener el ritmo de las crecientes necesidades humanas de procesamiento de listas de pagos, cuentas, facturas, análisis de ventas y otros problemas. En
+                              1937, Howard H. Aiken, un candidato al doctorado en física de Harvard, trabajó en una máquina que podría resolver automáticamente ecuaciones
+                              diferenciales. La International Business Machines (I.B.M.), hoy una de las más grandes empresas de esta fase de la industria norteamericana, ayudó al
+                              inventor a crear la “Calculadora Controlada de Secuencia Automática” conocida como el “Mark I”. El Mark I era un monstruo de cuatro y media toneladas
+                              métricas, con 78 aparatos independientes vinculados por unos 800 kilómetros de cable. En tres décimas de segundo podía efectuar sumas y restas de 23
+                              dígitos y en cerca de 6 segundos podía multiplicar números de 23 dígitos. Fue retirado en 1959.
+                              Tanto el Mark I como la Segunda Guerra Mundial, desempeñaron un papel clave en el desarrollo de las computadoras. El Mark I aportó los ingredientes
+                              tecnológicos básicos mientras que la segunda guerra mundial con sus inmensas demandas de mano de obra y máquinas, creó la necesidad. El resultado fue el
+                              “Integrador y Calculador Numérico Electrónico”, más conocido como el “ENIAC”.
+                              ENIAC Terminado en 1946, el ENIAC fue creado para el ejército norteamericano en la escuela Moore de Ingeniería Eléctrica, de la Universidad de
+                              Pennsylvania. Sus creadores fueron un estudiante graduado, J. Presper Eckert, y un físico, el Dr. John W. Mauchly. Juntos eliminaron la necesidad de las
+                              partes que se movían mecánicamente en la computadora central. En su lugar, adaptaron circuitos eléctricos de gatillo “flip-flop” y “pulsaciones” electrónicas
+                              para conectar o desconectar tubos al vacío, como interruptores. Como las interrupciones de este tipo podían hacerse miles de veces más rápido que los
+                              aparatos electro-mecánicos, el ENIAC constituyó un gran inicio hacia el desarrollo de las computadoras modernas. El último paso para completar el
+                              concepto de la computadora de hoy, fue el desarrollo del concepto de máquina almacenadora de programas. Este paso se dio a fines de los cuarenta, después
+                              de que el célebre matemático hungaro-norteamericano Dr. John Von Neumann sugirió que las instrucciones de operación, así como los datos, se
+                              almacenaran de la misma manera en la “memoria” de la computadora. Además, aportó la idea de hacer que la computadora modificara sus propias
+                              instrucciones de acuerdo con un control programado. Las ideas de Von Newman fueron fundamentales para los desarrollos posteriores y se le considera el
+                              padre de las computadoras. Desde entonces, se ha tratado de modificar, mejorar y apresurar estos conceptos, en fin, de hacer computadoras cada vez más
+                              eficientes.
+                              <br>
+                              Computador electrónico – IBM 360 Existen básicamente dos tipos básicos de computadoras: las análogas y las digitales. También existen sistemas llamados
+                              híbridos que emplean elementos tanto análogos como digitales. Los fenómenos que se comportan en forma continua reciben el nombre de analógico por
+                              ejemplo: la altura de una columna de mercurio en un termómetro clínico, puede variar entre las marcas de treinta y cuarenta y cinco grados y en todo
+                              momento puede estar en cualquier punto intermedio de la escala, lo mismo ocurre con un voltaje eléctrico o la rotación angular de un eje. En una
+                              computadora análoga los números están representados por cantidades físicas continuamente variables como las anteriores. Tales máquinas tienen
+                              aplicaciones físicas e industriales que representan procesos físicos que ocurren con el paso del tiempo. Existe otro tipo de fenómenos ejemplo: si se averigua
+                              la cantidad de ventanas de un edificio se llegará a la conclusión de que son un número exacto como 90 y que no puede haber 90 y media. Estos fenómenos
+                              reciben el nombre de digitales porque dan la idea de que se pueden cuantificar con los dedos de la mano. La computadora digital opera con números
+                              representados directamente en forma “digital”. Tales computadoras son las más extensamente usadas y pueden aplicarse en todos los campos que requieren
+                              operaciones aritméticas y manejo de información.
+                              <br>
+                              <br>
+                              La fabricación en serie (generaciones de computadores) El concepto de generación resulta un tanto especial: aunque tiene relación con la
+                              modernización de la tecnología constructiva y de componentes, reviste un carácter marcadamente comercial. Adicionalmente, las fronteras entre
+                              generaciones no parecen bien definidas y tal confusión es un síntoma más de las frenéticas y agresivas campañas comerciales llevadas a cabo por las firmas
+                              constructoras para colocar sus computadores. Se suelen considerar cinco generaciones:
+                              Generación Cero: En la cuál el hombre construyo máquinas, usando dispositivos mecánicos tales como ruedas dentadas y piñones, para realizar básicamente
+                              operaciones aritméticas como suma, resta, multiplicaciones y divisiones. Estas máquinas se conocen con el nombre de Máquinas Aritméticas.
+                              <br>
+                              <br>
+                              <strong>Primera Generación:</strong> En la cuál el hombre construyó máquinas de cálculo para tareas muy específicas como investigación y militares, usando dispositivos
+                              electro-mecánicos como relés y tubos de vacío los cuales dieron paso a los elementos transistorizados. Las máquinas de cómputo de esta generación tenían
+                              pocas facilidades de programación. La comunicación se establecía en lenguaje de máquina (lenguaje binario). Estos aparatos eran grandes y costosos.
+                              <br>
+                              <strong>Segunda Generación:</strong> En la cuál el hombre construyó computadores (máquinas de cálculo), basados en el transistor. Los computadores de esta generación
+                              tienen propósito general, no son usados únicamente para la investigación y el aspecto militar, ya son usados en el arte, la economía y la industria. Se
+                              programaban en nuevos lenguajes llamados “de alto nivel”.
+                              <br>
+                              <strong>Tercera Generación:</strong> En la cual el hombre construye diferentes tipos de computadores, basados en el desarrollo de los circuitos integrados. En esta
+                              generación se desarrollan los primeros programas de software de tipo específico.
+                              <br>
+                              <strong>Cuarta Generación:</strong>En la cual el hombre construye computadores de tamaño pequeño pero de gran capacidad, llamados microcomputadores, los cuales están
+                              basados en el microprocesador. La aparición del microprocesador se debe a los desarrollos hechos en la tecnología VLSI (Integración de Gran Escala). En
+                              esta generación se hacen aplicaciones de software orientadas al usuario final.
+                              <br>
+                              <strong>Quinta Generación:</strong>En la cual el hombre construye computadores con más de un procesador, cada uno con una tarea específica como procesamiento de                              
+                              imagen y procesamiento de sonido, y/o con una tarea en común. Adicionalmente se construyen computadores capaces de autoconrse, auto-
+                              programarse, etc. En esta generación se desarrolla software tanto genérico como específico.
                           </p>
                         </div>
                       </div>
                       <div class="curriculum-level mb-30 single-accordion">
                         <h6>
                           <a role="button" class="collapsed" aria-expanded="false" aria-controls="1-2" data-toggle="collapse" data-parent="#accordion" href="#1-2">
-                            Tipos de Sistemas
+                            Estructura del computador
                             <span class="accor-open"><i class="fa fa-plus" aria-hidden="true"></i></span>
                             <span class="accor-close"><i class="fa fa-minus" aria-hidden="true"></i></span>
                           </a>
                         </h6>
                         <div id="1-2" class="accordion-content collapse">
                           <p>
-                            <strong>1.2.1 Sistema de Procesamiento de Datos:</strong>
-                            El procesamiento de datos es, en general, "la acumulación y manipulación de elementos de datos para producir información significativa."
-                            El procesamiento de datos trata de un subconjunto del procesamiento de la información, el cambio (procesamiento) de la información de
-                            cualquier manera detectable por un observador. El procesamiento de datos es distinto del procesamiento de textos, pues este último manipula
-                            textos nada más en lugar de los datos. El procesamiento de datos es el proceso lógico del pensamiento en el cual intervienen informaciones
-                            referidas a una problemática objeto de estudio y que permita establecer inferencias sobre la base del análisis, comparaciones y relaciones.
+                            <strong>Un computador:</strong>
+                              Es una máquina que realiza cálculos de manera automática. Se divide fundamentalmente en dos partes: el hardware y el software. El HARDWARE es la
+                              parte física de un computador, es decir, la parte que realiza los cálculos. El SOFTWARE es la parte lógica del computador, es decir, la parte que le dice al
+                              hardware qué hacer. Usando una metáfora se puede decir que: “Un computador es como un ser humano: el hardware es el cuerpo y el software es la mente”
+                              <br>
+                              <br>
+                              <strong>Arquitectura de hardware</strong>
+                              Un computador desde la perspectiva del hardware, está constituido por una serie de dispositivos cada uno con un conjunto de tareas definidas. Los
+                              dispositivos de un computador se dividen según la tarea que realizan en: dispositivos de entrada, dispositivos de salida, dispositivos de comunicaciones,
+                              dispositivos de almacenamiento y dispositivo de cómputo.
+                              Dispositivos de entrada: Son aquellos que permiten el ingreso de datos a un computador. Entre estos se cuentan: teclados, ratones, scaners, micrófonos,
+                              cámaras fotográficas, cámaras de video, controles de juegos, lápices ópticos, y guantes de realidad virtual.
+                              Dispositivos de salida. Son aquellos que permiten mostrar información almacenada o procesada por el computador. Entre otros están: las pantallas de video,
+                              impresoras, audífonos, plotters, guantes de realidad virtual, gafas y cascos virtuales.
+                              Dispositivos de almacenamiento. Son aquellos en los cuales el computador puede guardar información y de los cuales puede obtener información
+                              previamente almacenada. Entre otros están los discos flexibles, discos duros, unidades de cinta, CD-ROM, CD-ROM de re-escritura y DVD.
+                              Dispositivos de comunicación: Son aquellos que le permiten a un computador comunicarse con otros. Entre estos se cuentan los modems y tarjetas de red.
+                              Modem Dispositivo de cómputo: Es la parte del computador que realiza todos los cálculos y tiene el control sobre los demás dispositivos. Está
+                              formado por tres elementos fundamentales: la unidad central de proceso, la memoria y el bus de datos y direcciones.
+                              <br>
+                              <br>
+                              La unidad central de proceso (UCP)1: es el ‘cerebro’ del computador, está encargada de realizar todos los cálculos, utilizando para ello la información
+                              almacenada en la memoria y de controlar los demás dispositivos, procesando las entradas y salidas provenientes y/o enviadas a los mismos. Mediante el bus
+                              de datos y direcciones, la UCP se comunica con los diferentes dispositivos enviando y obteniendo tales entradas y salidas. Para realizar su tarea la unidad
+                              central de proceso dispone de una unidad aritmético lógica, una unidad de control, un grupo de registros y opcionalmente una memoria caché para datos y
+                              direcciones. La unidad aritmético lógica (UAL)2 es la encargada de realizar las operaciones aritméticas y lógicas requeridas por el programa en ejecución, la
+                              unidad de control es la encargada de determinar las operaciones e instrucciones que se deben realizar, el grupo de registros es donde se almacenan tanto
+                              datos como direcciones necesarias para realizar las operaciones requeridas por el programa en ejecución y la memoria caché se encarga de mantener
+                              direcciones y datos intensamente usados por el programa en ejecución. 1 La unidad central de proceso es más conocida como CPU por sus siglas en inglés
+                              Central Process Unit. La unidad aritmético lógica es más conocida como ALU por sus siglas en inglés Arithmetic Logic Unit.
+                              Unidad Central de Proceso. La memoria está encargada de almacenar toda la información que el computador está usando, es decir, la información que es
+                              accedida (almacenada y/o recuperada) por la UCP y por los dispositivos. La unidad de medida de memoria es el byte, constituido por 8 bits (ceros o unos).
+                              <br>
+                              <br>
+                              Cada byte tiene asignada una dirección de memoria, para poder ser accedida por la UCP. Para la interpretación de la información que está en memoria, como
+                              datos o comandos o instrucciones, se utilizan códigos que la UCP interpreta para llevar a cabo las acciones deseadas por el usuario. Existen diferentes tipos
+                              de memoria, entre las cuales se encuentran las siguientes:
+                              •• RAM (Random Access Memory): Memoria de escritura y lectura, es la memoria principal del computador. El contenido solo se mantiene mientras el
+                              computador está encendido.
+                              •• ROM (Read Only Memory): Memoria de solo lectura, es permanente y no se afecta por el encendido o apagado del computador. Generalmente almacena
+                              las instrucciones que le permiten al computador iniciarse y cargar (poner en memoria RAM) el sistema operativo.
+                              •• Caché: Memoria de acceso muy rápido, usada como puente entre la UCP y la memoria RAM, para evitar las demoras en la consulta de la memoria RAM.
+                              El bus de datos y direcciones permite la comunicación entre los elementos del computador. Por el bus de datos viajan tanto las instrucciones como los datos
+                              de un programa y por el bus de direcciones viajan tanto las direcciones de las posiciones de memoria donde están instrucciones y datos, como las direcciones
+                              lógicas asignadas a los dispositivos.
+                              <br>
+                              <strong>Arquitectura de software:</strong>
+                              Un computador desde la perspectiva del software, está constituido por:
+                              • Un sistema operativo.
+                              • Un conjunto de lenguajes a diferente nivel con los cuales se comunica con el usuario y con sus dispositivos. Entre estos están los lenguajes de máquina, los
+                              ensambladores y los de alto nivel. • Un conjunto de aplicaciones de software.
+                              • Un conjunto de herramientas de software.
+                              Software: Es un conjunto de instrucciones que le dicen al hardware que hacer. El hardware por si solo no puede hacer nada.
+                              Lenguaje de programación: Es un conjunto de reglas y estándares que es utilizado para escribir programas de computador (software), que puedan ser
+                              entendidos por él.
+                              Programa: Es la representación de algún software en un lenguaje de programación específico.
+                              <br>
+                              <strong>Sistema Operativo:</strong>
+                              Es el software encargado de administrar los recursos del sistema. Adicionalmente, ofrece un conjunto de comandos para interactuar con la máquina. Los
+                              sistemas operativos pueden ser escritos en lenguaje de alto nivel (UNIX fue escrito en C), en lenguaje ensamblador y/o en lenguaje máquina. Algunos de los
+                              sistemas operativos más conocidos son DOS, UNIX, LINUX y las distintas versiones de Microsoft Windows.
+                              <br>
+                              <strong>Lenguaje de Máquina:</strong>
+                              Es el único lenguaje que entiende el hardware (máquina) y usa exclusivamente el sistema binario (ceros y unos). Este lenguaje es específico para cada
+                              hardware (procesador, dispositivos, etc.). El programa (tanto códigos de instrucción como datos) es almacenado en memoria. La estructura de una
+                              instrucción en lenguaje máquina es la siguiente: CODIGO ARGUMENTO(S)
+                              <strong>Lenguaje Ensamblador:</strong> Es un lenguaje que usa mnemónicos (palabras cortas escritas con caracteres alfanuméricos), para codificar las operaciones.
+                              Los datos y/o direcciones son codificados generalmente como números en un sistema hexadecimal. Generalmente es específico (aunque no único) para cada
+                              lenguaje de máquina. La estructura de una instrucción en este lenguaje es la siguiente: MNEMONICO ARGUMENTO(S) Un ENSAMBLADOR es un
+                              software, generalmente escrito en lenguaje de máquina, que es capaz de traducir de lenguaje ensamblador a lenguaje de máquina.
+                              
+                              <strong>Lenguaje de Alto Nivel:</strong> Es un lenguaje basado en una estructura gramatical para codificar estructuras de control y/o instrucciones. Cuenta con un
+                              conjunto de palabras reservadas (escritas en lenguaje natural). Estos lenguajes permiten el uso de símbolos aritméticos y relacionales para describir cálculos
+                              matemáticos, y generalmente representan las cantidades numéricas mediante sistema decimal. Gracias a su estructura gramatical, estos lenguajes permiten al
+                              programador olvidar el direccionamiento de memoria (donde cargar datos y/o instrucciones en la memoria), ya que este se realiza mediante el uso de
+                              conceptos como el de variable. Los COMPILADORES e INTERPRETES son software capaz de traducir de un lenguaje de alto nivel al lenguaje
+                              ensamblador específico de una máquina. Los primeros toman todo el programa en lenguaje de alto nivel, lo pasan a lenguaje ensamblador y luego lo
+                              ejecutan. Los últimos toman instrucción por instrucción, la traducen y la van ejecutando.
+                              <br>
+                              <strong>Aplicaciones:</strong> Una APLICACION es un software construido para que el computador realice una tarea específica y con el cual no se puede construir
+                              otro software. Ejemplos de aplicaciones son los procesadores de texto como Microsoft Word y Word Perfect y las hojas electrónicas de cálculo como
+                              Microsoft Excel y Lotus.
+                              <br>
+                              <strong>Herramientas:</strong> Una HERRAMIENTA es un software construido especialmente para el desarrollo de nuevo software, (tanto de aplicaciones como de
+                              herramientas). Ejemplos de herramientas son los compiladores como Turbo C, Turbo Pascal y Dev C++, las herramientas CASE y los ambientes integrados
+                              de desarrollo.
                           </p>
-                          <p>
-                            <strong>1.2.2 Sistema de Procesamiento de Conocimientos:</strong>
-                            Los sistemas de conocimiento son sistemas expertos ideados para crear nuevo conocimiento a partir del conocimiento explícito presente en los
-                            documentos de las bases de datos. Siguen el proceso KDD1 en sus diferentes fases. Tienen su origen en los softwares cienciométricos
-                            desarrollados para facilitar el análisis de grandes conjuntos documentales científicos o tecnológicos (artículos científicos, patentes, tesis
-                            doctorales, etc.).2
-                            Los sistemas de conocimiento son de gran utilidad para los equipos de inteligencia competitiva y de vigilancia tecnológica de las organizaciones
-                            ya que proporcionan informes, diagramas, gráficos y mapas muy apreciados en la toma de decisiones estratégicas. La evaluación de redes de
-                            conocimiento3 se beneficia de la existencia de sistemas de conocimiento desarrollados para transformar la información en conocimiento,4
-                            procesando de una manera rápida y controlada ingentes conjuntos documentales y creando nuevo conocimiento a partir de ellos.
-                            La ingeniería del conocimiento es la rama de la inteligencia artificial que tiene por objetivo la creación de indicadores, métodos e instrumentos de
-                            naturaleza matemática, informática y lingüística, para el análisis y la representación cartográfica de la información científica y técnica.
-                          </p>
-                          <p>
-                            <strong>1.2.3 Sistema de Archivos:</strong>
-                            Un sistema de archivos son los métodos y estructuras de datos que un sistema operativo utiliza para seguir la pista de los archivos de un disco o
-                            partición; es decir, es la manera en la que se organizan los archivos en el disco. El término también es utilizado para referirse a una partición o
-                            disco que se está utilizando para almacenamiento, o el tipo del sistema de archivos que utiliza. Así uno puede decir “tengo dos sistemas de
-                            archivo” refiriéndose a que tiene dos particiones en las que almacenar archivos, o que uno utiliza el sistema de “archivos extendido”, refiriéndose
-                            al tipo del sistema de archivos.
-    
-                            La diferencia entre un disco o partición y el sistema de archivos que contiene es importante. Unos pocos programas (incluyendo,
-                            razonablemente, aquellos que crean sistemas de archivos) trabajan directamente en los sectores crudos del disco o partición; si hay un archivo
-                            de sistema existente allí será destruido o corrompido severamente. La mayoría de programas trabajan sobre un sistema de archivos, y por lo
-                            tanto no utilizarán una partición que no contenga uno (o que contenga uno del tipo equivocado).
-                            Antes de que una partición o disco sea utilizada como un sistema de archivos, necesita ser iniciada, y las estructura de datos necesitan
-                            escribirse al disco. Este proceso se denomina construir un sistema de archivos.
-                          </p>
-                        </div>
-                      </div>
-                      <div class="curriculum-level mb-30 single-accordion">
-                        <h6>
-                          <a role="button" class="collapsed" aria-expanded="false" aria-controls="1-3" data-toggle="collapse" data-parent="#accordion" href="#1-3">
-                            Diferencias entre manejador de archivos y sistema manejador de base de datos
-                            <span class="accor-open"><i class="fa fa-plus" aria-hidden="true"></i></span>
-                            <span class="accor-close"><i class="fa fa-minus" aria-hidden="true"></i></span>
-                          </a>
-                        </h6>
-                        <div id="1-3" class="accordion-content collapse" style="padding:15px 30px;">
-                          <strong>Sistema de archivos:</strong>
-                          <ul>
-                            <li>
-                              1. Manejo de archivos en texto plano.
-                            </li>
-                            <li>
-                              2. Búsqueda de tres tipos : secuencial, aleatorio, indexado.
-                            </li>
-                            <li>
-                              3. No existen las actualizaciones, se simulan dando de baja el registroy dando de alta el nuevo con la modificación.
-                            </li>
-                            <li>
-                              4. Tienen independencia lógica y física la mayoría de ellos.
-                            </li>
-                            <li>
-                              5. Cuenta con redundancia no controlada y errores de referencias.
-                            </li>
-                            <li>
-                              6. Sus componentes son: archivos, registros, campos.
-                            </li>
-                          </ul>
-                          <br>
-                          <br>
-                          <strong>Sistemas de bases de datos:</strong>
-                          <ul>
-                            <li>
-                              1. Existe redundancia controlada e integridad referencia.
-                            </li>
-                            <li>
-                              2. Implementa mayor seguridad.
-                            </li>
-                            <li>
-                              3. Existen actualizaciones directas.
-                            </li>
-                            <li>
-                              4. No tienen independencia ni lógica ni física.
-                            </li>
-                            <li>
-                              5. Sus componentes son Hw, Sw, BD y Usuarios.
-                            </li>
-                          </ul>
                         </div>
                       </div>
                     </div>
@@ -204,288 +248,43 @@
                     <div class="clever-curriculum accordions" id="accordion"  role="tablist" aria-multiselectable="true">
                       <div class="curriculum-level mb-30 single-accordion">
                         <h6>
-                          <a role="button" class="collapsed" aria-expanded="false" aria-controls="2-1" data-toggle="collapse" data-parent="#accordion" href="#2-1">
-                            Modelos de Bases de Datos
-                            <span class="accor-open"><i class="fa fa-plus" aria-hidden="true"></i></span>
-                            <span class="accor-close"><i class="fa fa-minus" aria-hidden="true"></i></span>
-                          </a>
-                        </h6>
-                        <div id="2-1" class="accordion-content collapse show">
-                          <p>
-                            <strong>2.1 Definición:</strong>
-                            Un modelo de base de datos (Data Información Estructurada) es un tipo de modelo de datos que determina la estructura lógica de una base de
-                            datos y de manera fundamental determina el modo de almacenar, organizar y manipular los datos.
-                          </p>
-                        </div>
-                      </div>
-                      <div class="curriculum-level mb-30 single-accordion">
-                          <h6>
-                            <a role="button" class="collapsed" aria-expanded="false" aria-controls="2-2" data-toggle="collapse" data-parent="#accordion" href="#2-2">
-                              Modelo Entidad-Relación
-                              <span class="accor-open"><i class="fa fa-plus" aria-hidden="true"></i></span>
-                              <span class="accor-close"><i class="fa fa-minus" aria-hidden="true"></i></span>
-                            </a>
-                          </h6>
-                          <div id="2-2" class="accordion-content collapse">
-                            <p>
-                              <strong>2.2 Definición:</strong>
-                              Un diagrama entidad-relación, también conocido como modelo entidad relación o ERD, es un tipo de diagrama de flujo que ilustra cómo las
-                              "entidades", como personas, objetos o conceptos, se relacionan entre sí dentro de un sistema. Los diagramas ER se usan a menudo para
-                              diseñar o depurar bases de datos relacionales en los campos de ingeniería de software, sistemas de información empresarial, educación e
-                              investigación. También conocidos como los ERD o modelos ER, emplean un conjunto definido de símbolos, tales como rectángulos, diamantes,
-                              óvalos y líneas de conexión para representar la interconexión de entidades, relaciones y sus atributos. Son un reflejo de la estructura gramatical
-                              y emplean entidades como sustantivos y relaciones como verbos.
-                              Los diagramas de ER se relacionan con los diagramas de estructura de datos (DSD), que se centran en las relaciones de los elementos dentro
-                              de las entidades, en lugar de las relaciones entre las entidades mismas. Los diagramas ER a menudo se combinan con los diagramas de flujo
-                              de datos (DFD), que trazan el flujo de la información para procesos o sistemas.
-                            </p>
-                            <img class="img-content" src="img/simbolos-e-r.jpg" alt="">
-                          </div>
-                      </div>
-                      <div class="curriculum-level mb-30 single-accordion">
-                        <h6>
-                          <a role="button" class="collapsed" aria-expanded="false" aria-controls="2-3" data-toggle="collapse" data-parent="#accordion" href="#2-3">
-                            Modelo Entidad-Relación Extendido
-                            <span class="accor-open"><i class="fa fa-plus" aria-hidden="true"></i></span>
-                            <span class="accor-close"><i class="fa fa-minus" aria-hidden="true"></i></span>
-                          </a>
-                        </h6>
-                        <div id="2-3" class="accordion-content collapse">
-                          <p>
-                            <strong>Definición:</strong>
-                            Se trata de una técnica cuyo objetivo es la representación y definición de todos los datos que se introducen, almacenan, transforman y producen
-                            dentro de un sistema de información, sin tener en cuenta las necesidades de la tecnología existente, ni otras restricciones.
-                            Dado que el modelo de datos es un medio para comunicar el significado de los datos, las relaciones entre ellos y las reglas de negocio de un
-                            sistema de información, una organización puede obtener numerosos beneficios de la aplicación de esta técnica, pues la definición de los datos y
-                            la manera en que éstos operan son compartidos por todos los usuarios.                      
-                          </p>
-                          <p>
-                            <strong>Las ventajas de realizar un modelo de datos son, entre otras:</strong>
-                            • Comprensión de los datos de una organización y del funcionamiento de la organización.
-                            • Obtención de estructuras de datos independientes del entorno físico.
-                            • Control de los posibles errores desde el principio, o al menos, darse cuenta de las deficiencias lo antes posible.
-                            • Mejora del mantenimiento.
-                            Aunque la estructura de datos puede ser cambiante y dinámica, normalmente es mucho más estable que la estructura de procesos. Como
-                            resultado, una estructura de datos estable e integrada proporciona datos consistentes que puedan ser fácilmente accesibles según las
-                            necesidades de los usuarios, de manera que, aunque se produzcan cambios organizativos, los datos permanecerán estables.
-                            Este diagrama se centra en los datos, independientemente del procesamiento que los transforma y sin entrar en consideraciones de eficiencia.
-                            Por ello, es independiente del entorno físico y debe ser una fiel representación del sistema de información objeto del estudio, proporcionando a
-                            los usuarios toda la información que necesiten y en la forma en que la necesiten.
-                          </p>
-                          <img class="img-content" src="img/herencia1.gif" alt="">
-                        </div>
-                      </div>
-                      <div class="curriculum-level mb-30 single-accordion">
-                        <h6>
-                          <a role="button" class="collapsed" aria-expanded="false" aria-controls="2-4" data-toggle="collapse" data-parent="#accordion" href="#2-4">
-                            Modelo Semántico
-                            <span class="accor-open"><i class="fa fa-plus" aria-hidden="true"></i></span>
-                            <span class="accor-close"><i class="fa fa-minus" aria-hidden="true"></i></span>
-                          </a>
-                        </h6>
-                        <div id="2-4" class="accordion-content collapse">
-                          <p>
-                            <strong>2.2 Definición:</strong>
-                            Es un modelo conceptual de datos en el que se incluye información semántica. Esto significa que el modelo describe el significado de sus
-                            instancias. Tal modelo de dato semántico es una abstracción que define cómo los símbolos almacenados (los datos de la instancia) se
-                            relacionan con el mundo real.
-                            Es un modelo de datos conceptual que incluye la capacidad de expresar información que permite el intercambio de información para
-                            interpretar su significado (semántico) de las instancias, sin necesidad de conocer el meta-modelo. Estos modelos semánticos están orientados a
-                            los hechos (en oposición a los orientados a objetos). Los hechos son típicamente expresados por relaciones binarias entre elementos de datos,
-                            mientras que las relaciones de orden superior se expresan como colecciones de relaciones binarias. Típicamente las relaciones binarias tienen
-                            la forma de ternas: Objeto-< Tipo de Relación >-Objeto. 
-                            <strong><small>Por ejemplo: La Torre Eiffel < se encuentra en > París.</small></strong>
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="tab-pane fade" id="tab3" role="tabpanel" aria-labelledby="tab--3">
-                    <div class="clever-curriculum accordions" id="accordion"  role="tablist" aria-multiselectable="true">
-                      <div class="curriculum-level mb-30 single-accordion">
-                        <h6>
-                          <a role="button" class="collapsed" aria-expanded="false" aria-controls="3-1" data-toggle="collapse" data-parent="#accordion" href="#3-1">
-                            Normalización
-                            <span class="accor-open"><i class="fa fa-plus" aria-hidden="true"></i></span>
-                            <span class="accor-close"><i class="fa fa-minus" aria-hidden="true"></i></span>
-                          </a>
-                        </h6>
-                        <div id="3-1" class="accordion-content collapse show">
-                          <p>
-                            <strong>3.1 Definición:</strong>
-                            La normalización (también denominada estandarización) es el proceso de elaborar, aplicar y mejorar las normas que se aplican a distintas
-                            actividades científicas, industriales o económicas, con el fin de ordenarlas y mejorarlas. Por su parte, la asociación estadounidense para pruebas
-                            de materiales (ASTM), define la estandarización como el proceso de formular y aplicar reglas, para una aproximación ordenada a una actividad
-                            específica, para el beneficio y con la cooperación de todos los involucrados.
-                            <br>
-                            Según la ISO (International Organization for Standarization), la normalización es la actividad que tiene por objeto establecer, ante problemas
-                            reales o potenciales, disposiciones destinadas a usos comunes y repetidos, con el fin de obtener un nivel de ordenamiento óptimo en un
-                            contexto dado, que puede ser tecnológico, político, o económico.
-                          </p>
-                          <p>
-                            <strong>3.2 Objetivos:</strong>
-                            • Simplificación: se trata de reducir el número de modelos y de normas, para quedarse únicamente con los más necesarios.
-                            • Unificación: se trata de permitir los intercambios y las comparaciones a nivel internacional.
-                            • Especificación: se persigue evitar errores de identificación, creando un lenguaje claro y preciso.
-                            Las elevadas sumas de dinero que los países desarrollados invierten en los organismos normalizadores, tanto nacionales como internacionales,
-                            es un indicio o una prueba de la importancia que se da a esta cuestión.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="tab-pane fade" id="tab4" role="tabpanel" aria-labelledby="tab--4">
-                    <div class="clever-curriculum accordions" id="accordion"  role="tablist" aria-multiselectable="true">
-                      <div class="curriculum-level mb-30 single-accordion">
-                        <h6>
                           <a role="button" class="collapsed" aria-expanded="false" aria-controls="4-1" data-toggle="collapse" data-parent="#accordion" href="#4-1">
-                            Formas Normales
+                            Algoritmos y Estructuras
                             <span class="accor-open"><i class="fa fa-plus" aria-hidden="true"></i></span>
                             <span class="accor-close"><i class="fa fa-minus" aria-hidden="true"></i></span>
                           </a>
                         </h6>
-                        <div id="4-1" class="accordion-content collapse">
+                        <div id="4-1" class="accordion-content collapse show">
                           <p>
-                            <strong>4.1 Definición:</strong>
-                            En la teoría de bases de datos relacionales, las formas normales (NF) proporcionan los criterios para determinar el grado de vulnerabilidad de
-                            una tabla a inconsistencias y anomalías lógicas. Cuanto más alta sea la forma normal aplicable a una tabla, menos vulnerable será a
-                            inconsistencias y anomalías. Cada tabla tiene una "forma normal más alta" (HNF): por definición, una tabla siempre satisface los requisitos de su
-                            HNF y de todas las formas normales más bajas que su HNF; también por definición, una tabla no puede satisfacer los requisitos de ninguna
-                            forma normal más arriba que su HNF.
-                            Las formas normales son aplicables a tablas individuales; decir que una base de datos entera está en la forma normal n es decir que todas sus
-                            tablas están en la forma normal n.
-                            Los recién llegados al diseño de bases de datos a veces suponen que la normalización procede de una manera iterativa, es decir un
-                            diseño 1NF primero se normaliza a 2NF, entonces a 3NF, etcétera. Ésta no es una descripción exacta de cómo la normalización trabaja
-                            típicamente. Una tabla sensiblemente diseñada es probable que esté en 3NF en la primera tentativa; además, si está en 3NF, también es
-                            extremadamente probable que tenga una forma HNF de 5NF. Conseguir formas normales "más altas" (sobre 3NF) usualmente no requiere un
-                            gasto adicional de esfuerzo por parte del diseñador, porque las tablas 3NF usualmente no necesitan ninguna modificación para satisfacer los
-                            requisitos de estas formas normales más altas.
-                            Edgar F. Codd originalmente definió las tres primeras formas normales (1NF, 2NF, y 3NF). Estas formas normales se han resumido como
-                            requiriendo que todos los atributos no-clave sean dependientes en "la clave, la clave completa, y nada excepto la clave". Las cuarta y quinta
-                            formas normales (4NF y 5NF) se ocupan específicamente de la representación de las relaciones muchos a muchos y uno muchos entre los
-                            atributos. La sexta forma normal (6NF), en pocas palabras, se basa en el principio de que si se tiene más de dos claves candidatas en una tabla,
-                            se tendrán que crear otras tablas con estas.
-                            Por ejemplo si tenemos "ítem" con un id código de producto y con los atributos descripción y precio que son claves candidatas se tendría que
-                            crear otras tablas separando la tabla ítem: ItemDesc {código_producto*, Descripción} ItemPrecio {código_producto*, Precio}.
-                            La sexta forma normal no es muy utilizada porque genera más tablas cuando tenemos pequeñas bases de datos.
-                          </p>
-                          <img style="margin-left:25px;" src="img/normalizacion.png" alt="">
-                        </div>
-                      </div>
-                      <div class="curriculum-level mb-30 single-accordion">
-                        <h6>
-                          <a role="button" class="collapsed" aria-expanded="false" aria-controls="4-2" data-toggle="collapse" data-parent="#accordion" href="#4-2">
-                            Primera Forma Normal
-                            <span class="accor-open"><i class="fa fa-plus" aria-hidden="true"></i></span>
-                            <span class="accor-close"><i class="fa fa-minus" aria-hidden="true"></i></span>
-                          </a>
-                        </h6>
-                        <div id="4-2" class="accordion-content collapse">
-                          <p>
-                            <strong>1FN:</strong>
-                            La primera forma normal (1FN o forma mínima) es forma normal usada en normalización de bases de datos. Una tabla de base de datos
-                            relacional que se adhiere a la 1FN es una que satisface cierto conjunto mínimo de criterios. Estos criterios se refieren básicamente a asegurarse
-                            que la tabla es una representación fiel de una relación1 y está libre de "grupos repetitivos".2
-                            Sin embargo, el concepto de "grupo repetitivo", es entendido de diversas maneras por diferentes teóricos. Como consecuencia, no hay un
-                            acuerdo universal en cuanto a qué características descalificarían a una tabla de estar en 1FN. Muy notablemente, la 1FN, tal y como es definida
-                            por algunos autores excluye "atributos relación-valor" (tablas dentro de tablas) siguiendo el precedente establecido por (E.F. Codd (algunos de
-                            esos autores son: Ramez Elmasri y Shamkant B. Navathe3). Por otro lado, según lo definido por otros autores, la 1FN sí los permite (por
-                            ejemplo como la define Chris Date).
-                            <br>
-                            Según la definición de Date de la 1FN, una tabla está en 1FN si y solo si es "isomorfa a alguna relación", lo que significa, específicamente, que
-                            satisface las siguientes cinco condiciones:
-                            1. No hay orden de arriba-a-abajo en las filas.
-                            2. No hay orden de izquierda-a-derecha en las columnas.
-                            3. No hay filas duplicadas.
-                            4. Cada intersección de fila-y-columna contiene exactamente un valor del dominio aplicable (y nada más).
-                            5. Todas las columnas son regulares [es decir, las filas no tienen componentes como IDs de fila, IDs de objeto, o timestamps
-                            ocultos].
-                          </p>
-                        </div>
-                      </div>
-                      <div class="curriculum-level mb-30 single-accordion">
-                        <h6>
-                          <a role="button" class="collapsed" aria-expanded="false" aria-controls="4-3" data-toggle="collapse" data-parent="#accordion" href="#4-3">
-                            Segunda Forma Normal
-                            <span class="accor-open"><i class="fa fa-plus" aria-hidden="true"></i></span>
-                            <span class="accor-close"><i class="fa fa-minus" aria-hidden="true"></i></span>
-                          </a>
-                        </h6>
-                        <div id="4-3" class="accordion-content collapse">
-                          <p>
-                            <strong>2FN:</strong>
-                            La segunda forma normal (2NF) es una forma normal usada en normalización de bases de datos. La 2NF fue definida originalmente por E.F.
-                            Codd1 en 1971. Una tabla que está en la primera forma normal (1NF) debe satisfacer criterios adicionales para calificar para la segunda forma
-                            normal. Específicamente: una tabla 1NF está en 2NF si y solo si, dada una clave primaria y cualquier atributo que no sea un constituyente de
-                            la clave primaria, el atributo no clave depende de toda la clave primaria en vez de solo de una parte de ella.
-                            En términos levemente más formales: una tabla 1NF está en 2NF si y solo si ninguno de sus atributos no-principales son funcionalmente
-                            dependientes en una parte (subconjunto propio) de una clave candidata (Un atributo no-principal es uno que no pertenece a ninguna clave
-                            candidata).
-                          </p>
-                        </div>
-                      </div>
-                      <div class="curriculum-level mb-30 single-accordion">
-                        <h6>
-                          <a role="button" class="collapsed" aria-expanded="false" aria-controls="4-4" data-toggle="collapse" data-parent="#accordion" href="#4-4">
-                            Tercera Forma Normal
-                            <span class="accor-open"><i class="fa fa-plus" aria-hidden="true"></i></span>
-                            <span class="accor-close"><i class="fa fa-minus" aria-hidden="true"></i></span>
-                          </a>
-                        </h6>
-                        <div id="4-4" class="accordion-content collapse">
-                          <p>
-                            <strong>3FN:</strong>
-                            La tercera forma normal (3NF) es una forma normal usada en la normalización de bases de datos. La 3NF fue definida originalmente por E.F.
-                            Codd1 en 1971. La definición de Codd indica que una tabla está en 3NF si y solo si las tres condiciones siguientes se cumplen:
-                            • La tabla está en la segunda forma normal (2NF)
-                            • Ningún atributo no-primario de la tabla es dependiente transitivamente de una clave primaria
-                            • Es una relación que no incluye ningún atributo clave
-                            <br>
-                            Un atributo no-primario es un atributo que no pertenece a ninguna clave candidata. Una dependencia transitiva es una dependencia
-                            funcional X → Z en la cual Z no es inmediatamente dependiente de X, pero sí de un tercer conjunto de atributos Y, que a su vez depende de X.
-                            Es decir, X → Z por virtud de X → Y e Y → Z.
-                            Una formulación alternativa de la definición de Codd, dada por Carlo Zaniolo2 en 1982, es ésta: Una tabla está en 3NF si y solo si, para cada
-                            una de sus dependencias funcionales X → A, por lo menos una de las condiciones siguientes se mantiene:
-                            • X contiene A, ó
-                            • X es una superclave, ó
-                            • A es un atributo primario (es decir, A está contenido dentro de una clave candidata)
-                            <br>
-                            La definición de Zaniolo tiene la ventaja de dar un claro sentido de la diferencia entre la 3NF y la más rigurosa forma normal de Boyce-
-                            Codd (BCNF). La CONFÍN simplemente elimina la tercera alternativa ("A es un atributo primario").
-                          </p>
-                        </div>
-                      </div>
-                      <div class="curriculum-level mb-30 single-accordion">
-                        <h6>
-                          <a role="button" class="collapsed" aria-expanded="false" aria-controls="4-5" data-toggle="collapse" data-parent="#accordion" href="#4-5">
-                            Cuarta y Quinta Forma Normal
-                            <span class="accor-open"><i class="fa fa-plus" aria-hidden="true"></i></span>
-                            <span class="accor-close"><i class="fa fa-minus" aria-hidden="true"></i></span>
-                          </a>
-                        </h6>
-                        <div id="4-5" class="accordion-content collapse">
-                          <p>
-                            <strong>4FN:</strong>
-                            La cuarta forma normal (4NF) es una forma normal usada en la normalización de bases de datos. La 4NF se asegura de que las dependencias
-                            multivaluadas independientes estén correctas y eficientemente representadas en un diseño de base de datos. La 4NF es el siguiente nivel de
-                            normalización después de la forma normal de Boyce-Codd (BCNF).
-                            Una tabla está en 4NF si y solo si esta en Tercera forma normal o en BCNF (Cualquiera de ambas) y no posee dependencias multivaluadas no
-                            triviales. La definición de la 4NF confía en la noción de una dependencia multivaluada. Una tabla con una dependencia multivaluada es una
-                            donde la existencia de dos o más relaciones independientes muchos a muchos causa redundancia; y es esta redundancia la que es suprimida
-                            por la cuarta forma normal.
-                          </p>
-                          <p>
-                            <strong>5FN:</strong>                            
-                            La quinta forma normal (5FN), también conocida como forma normal de proyección-unión (PJ/NF), es un nivel de normalización de bases de
-                            datos diseñado para reducir redundancia en las bases de datos relacionales que guardan hechos multi-valores
-                            aislando semánticamente relaciones múltiples relacionadas. Una tabla se dice que está en 5NF si y sólo si está en 4NF y cada dependencia de
-                            unión (join) en ella es implicada por las claves candidatas.
-                            La quinta forma normal fue definida por Ronald Fagin en su contribución a congreso "Normal forms and relational database operators" de 19791.
-                            Solamente en contadas ocasiones una tabla 4NF no se corresponde con una 5NF. Estas son situaciones en las cuales una restricción compleja
-                            del mundo real, que limita las combinaciones válidas de los valores de atributos en la tabla 4NF, no está implícita en la estructura de esa tabla.
-                            Si esa tabla no se normaliza a 5NF, la tarea de mantener la consistencia lógica de los datos dentro de la tabla debe ser llevada en parte por la
-                            aplicación responsable de inserciones, borrados, y actualizaciones a ella; y hay un riesgo elevado de que los datos dentro de la tabla se vuelvan
-                            inconsistentes. Por el contrario, el diseño 5NF excluye la posibilidad de tales inconsistencias.
+                              En el contexto matemático, los algoritmos son una serie de normas o leyes específicas que hace posible la ejecución de
+                              actividades, cumpliendo una serie de pasos continuos que no le originen dudas a la persona que realice dicha actividad. Los
+                              algoritmos se pueden expresar de diversas formas: lenguaje natural, lenguaje de programación, pseudocódigo y diagramas
+                              de flujo.
+                              Los algoritmos se caracterizan porque: se definen de manera específica en cada paso. Su efectividad, esto significa que
+                              un sujeto puede realizar un algoritmo sin utilizar un ordenador y sus pasos son finitos. Por otra parte se pueden clasificar de la
+                              siguiente manera:
+                              Según el sistema de signos: cualitativos y cuantitativos. Los algoritmos cualitativos son aquellos que se realizan por medio de las
+                              palabras, lo que quiere decir que las órdenes vienen dadas en forma verbal. Por ejemplo una receta de cocina. Por su parte los
+                              algoritmos cuantitativos son aquellos que se realizan por medio de cálculos matemáticos. Por ejemplo, si se desea saber cuál es
+                              la raíz cuadrada de un número, se pueden aplicar algoritmos.
+                              Según su función: de ordenamiento, de búsqueda y de encaminamiento. Los algoritmos de ordenamiento son aquellos que llevan
+                              en orden los elementos que ingresan, dependiendo del orden numérico o léxico. Los algoritmos de búsqueda tratan de encontrar
+                              dentro de la lista que ingresa, algún elemento en especial que cumpla con las órdenes dadas. Y por último, los algoritmos de
+                              encaminamiento, éstos deciden la manera de cómo se tendrá que transmitir la información que llega y cómo deben seguir los
+                              pasos establecidos.
+                              De igual manera se encuentran los algoritmos computacionales, estos se realizan mediante la utilización de un computador. Y los
+                              no computacionales que son aquellos que no requieren de un ordenador. Por ejemplo cuando se instala un equipo de video.
+                              Es importante resaltar la importancia de los algoritmos ya que representa un elemento básico para las matemáticas, la informática,
+                              la robótica, ya que a través de ellos se logra un ordenamiento de ideas. Ellos conducen a la correcta ejecución de actividades y a
+                              un orden de ideas, relacionadas con cualquier aspecto.
+                              <br>
+                              <br>
+                              <strong>Representación de un algoritmo</strong>
+                              Una vez que se ha elegido la mejor alternativa para solucionar el problema o reto para el que se crea el algoritmo es el momento de representarlo siguiendo
+                              alguno de estos métodos:
+                              • Lenguaje natural (español, inglés, etc)
+                              • Diagramas de flujo
+                              • Pseudocódigo
                           </p>
                         </div>
                       </div>
@@ -494,7 +293,7 @@
                   <div class="tab-pane fade" id="tab5" role="tabpanel" aria-labelledby="tab--5">
                     <p>
                       <i class="fa fa-download"></i>
-                      <a href="img/BASE DE DATOS.pdf">DESCARGAR CONTENIDO PROGRAMÁTICO</a>
+                      <a href="img/PROGRAMACIÓN.pdf">DESCARGAR CONTENIDO PROGRAMÁTICO</a>
                     </p>
                   </div>
                 </div>
@@ -510,7 +309,9 @@
                     <img src="https://images.unsplash.com/photo-1508830524289-0adcbe822b40?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=377e356cce015c363d123504857f8137&auto=format&fit=crop&w=1011&q=80" alt="">
                   </div>
                   <div class="content">
-                    <h5>Gerencia de la Informática</h5>
+                      <a href="gerencia.html">
+                          <h5>Gerencia de la Informática</h5>
+                        </a>
                   </div>
                 </div>
                 <div class="single--courses d-flex align-items-center">
@@ -518,7 +319,9 @@
                     <img src="https://images.unsplash.com/photo-1508830524289-0adcbe822b40?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=377e356cce015c363d123504857f8137&auto=format&fit=crop&w=1011&q=80" alt="">
                   </div>
                   <div class="content">
-                    <h5>Programación</h5>
+                      <a href="logic.html">
+                          <h5>Lógica Matemática</h5>
+                        </a>
                   </div>
                 </div>
                 <div class="single--courses d-flex align-items-center">
@@ -526,7 +329,9 @@
                     <img src="https://images.unsplash.com/photo-1508830524289-0adcbe822b40?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=377e356cce015c363d123504857f8137&auto=format&fit=crop&w=1011&q=80" alt="">
                   </div>
                   <div class="content">
-                    <h5>Lógica Matématica</h5>
+                      <a href="db.html">
+                          <h5>Bases de Datos</h5>
+                        </a>
                   </div>
                 </div>
               </div>
@@ -545,7 +350,6 @@
     <script src="js/bootstrap.min.js"></script>
     <!-- All Plugins js -->
     <script src="js/plugins/plugins.js"></script>
-    <script src="https://use.fontawesome.com/70a3cb5d53.js"></script>
     <!-- Active js -->
     <script src="js/active.js"></script>
   </body>
