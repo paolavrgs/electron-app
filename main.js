@@ -6,7 +6,14 @@ let win
 
 function createWindow () {
   // Crea la ventana del navegador.
-  win = new BrowserWindow({ width: 800, height: 600 })
+  win = new BrowserWindow(
+    {
+      width: 800,
+      height: 600,
+      webPreferences: {
+        devTools: true
+      }
+    })
 
   // y carga el archivo index.html de la aplicación.
   win.loadFile('index.html')
